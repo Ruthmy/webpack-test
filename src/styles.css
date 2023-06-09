@@ -127,7 +127,7 @@ input[type=text] {
   background-color: var(--hover-task);
 }
 
-input[type="checkbox"]:checked+label {
+input[type="checkbox"]:checked + label {
   color: var(--disabled);
   animation: move 0.4s ease forwards;
 }
