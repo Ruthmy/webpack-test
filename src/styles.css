@@ -45,14 +45,18 @@ input {
   font-size: 1.6rem;
 }
 
-h1 { font-size: 2.5rem; }
+h1 {
+  font-size: 2.5rem;
+}
 
 p,
 label {
   font-size: 1.6rem;
 }
 
-li { list-style: none; }
+li {
+  list-style: none;
+}
 
 /* Todo List */
 
@@ -123,7 +127,7 @@ input[type=text] {
   background-color: var(--hover-task);
 }
 
-input[type="checkbox"]:checked + label {
+input[type="checkbox"]:checked+label {
   color: var(--disabled);
   animation: move 0.4s ease forwards;
 }

@@ -32,7 +32,7 @@ let insideItem = '';
 
 ItemsArray.forEach((singleItemContents) => {
   insideItem
-  += `
+    += `
     <li class="item">
         <input value="${singleItemContents.index}" name="item" type="checkbox" data-index="${singleItemContents.index}" id="${singleItemContents.index}">
         <label for="0${singleItemContents.index}">${singleItemContents.description}</label>
